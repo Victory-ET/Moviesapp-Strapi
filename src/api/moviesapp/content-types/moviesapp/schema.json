@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moviesapps",
+  "info": {
+    "singularName": "moviesapp",
+    "pluralName": "moviesapps",
+    "displayName": "Moviesapp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moviename": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
